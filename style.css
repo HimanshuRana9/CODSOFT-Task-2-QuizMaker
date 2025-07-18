@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  background: #6c63ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #574b90;
+}
+
+.option-btn {
+  display: block;
+  margin: 10px 0;
+  background: #f1f1f1;
+  color: #000;
+}
+
+.option-btn.selected {
+  background-color: #ffa502;
+}
+
+.option-btn.correct {
+  background-color: #2ed573;
+}
+
+.option-btn.incorrect {
+  background-color: #ff4757;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  background: #1e90ff;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #444;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
