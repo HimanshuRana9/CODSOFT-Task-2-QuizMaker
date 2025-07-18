@@ -85,7 +85,7 @@ li {
 .nav-buttons {
   display: flex;
   justify-content: center;
-  gap: 30px; /* space between the buttons */
-  margin-top: 30px; /* space between heading and buttons */
-  flex-wrap: wrap; /* makes it responsive on small screens */
+  gap: 50px; /* increase this value for more space */
+  margin-top: 30px;
 }
+
